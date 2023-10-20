@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sliderStyle.css">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>New Saxena Hospital - home</title>
+
+  <meta name="title" content="New Saxena Hospital - home">
+  <meta name="description" content="This is sample website for New Saxena Hospital">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.png" type="image/png+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Rubik:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="170" height="60" alt="Doclab home">
+        <p style = "font-size: 20px; color: white; text-align: center;">Your Healing Partner</p>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="150" height="70" alt="logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="clsoe menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link title-md">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#listing-doctors" class="navbar-link title-md">Doctors</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#services" class="navbar-link title-md">Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#blogs" class="navbar-link title-md">Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link title-md">Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScE8FGE22oG5CZy3diV-7w5VtYmkdAH1ek9VKSBYD4xQFetRg/viewform?usp=sf_link" class="btn has-before title-md" target="_blank">Make an Appointment</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+
+  </header>
+
+  <main>
+    <article>
+
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" style="background-image: url('./assets/images/hero-bg.png')" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p style = "font-size: 30px;" class="hero-subtitle has-before" data-reveal="left">Welcome To <br /> New Saxena Hospital</p>
+
+            <h1 style = " font-size: 50px;" class="headline-lg hero-title" data-reveal="left">
+              Available services
+            </h1>
+
+            <div class="hero-card" data-reveal="left">
+
+              <p class="title-lg card-text">
+                Search for services and their prices
+              </p>
+
+              <div class="wrapper">
+
+                <div class="input-wrapper title-lg">
+                  <input type="text" name="services" placeholder="Services" class="input-field">
+
+                  <ion-icon name="services"></ion-icon>
+                </div>
+
+                <button class="btn has-before">
+                  <ion-icon name="search"></ion-icon>
+
+                  <span class="span title-md">Find Now</span>
+                </button>
+
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- <div class="slider-container">
+            <div class="slider">
+                <img src="./assets/images/hero-banner.png" alt="Image 1" width="700px" height="700px">
+                <img src="./Images/reception.jpeg" alt="Image 2" width="700px" height="700px">
+                <img src="./Images/ICU.jpeg" alt="Image 3" width="700px" height="700px">
+                <img src="./Images/ICU_inside.jpeg" alt="Image 4" width="700px" height="700px">
+
+            </div>
+            <button class="prev-slide">&#10094;</button>
+            <button class="next-slide">&#10095;</button>
+         </div> -->
+
+        <!-- <script src="sliderScript.js"></script> -->
+
+        </div>
+      </section>
+
+
+
+
+      <section class="opening-section">
+        <div class="owl-carousel owl-theme owl-carousel-prime owl-loaded owl-drag owl-grab">
+        <div class="owl-stage-outer">
+        <div class="owl-stage" style="transform: translate3d(-10232px, 0px, 0px); transition: all 0s ease 0s; width: 15348px;"><div class="owl-item cloned" style="width: 1279px;">
+              <div class="item">
+                 <img src="./assets/images/hero-banner.png" alt="" class="opening-section-img">
+              </div>
+           </div><div class="owl-item animated owl-animated-in fadeIn cloned" style="width: 1279px;">
+              <div class="item"><img src="./assets/images/hero-banner.png" alt="" class="opening-section-img"></div>
+           </div><div class="owl-item cloned" style="width: 1279px;">
+              <div class="item"><img src="./assets/images/hero-banner.png" alt="" class="opening-section-img"></div>
+           </div>
+           
+  
+           <div class="owl-item" style="width: 1279px;">
+              <div class="item">
+                 <img src="./assets/images/hero-banner.png" alt="" class="opening-section-img">
+              </div>
+           </div>
+                    <div class="owl-item" style="width: 1279px;">
+              <div class="item"><img src="static/img/team-work.jpg" alt="" class="opening-section-img"></div>
+           </div>
+           <div class="owl-item" style="width: 1279px;">
+              <div class="item"><img src="static/img/EXCELLENCE-Banner.2f47b4d.jpg" alt="" class="opening-section-img"></div>
+           </div>
+        <div class="owl-item cloned" style="width: 1279px;">
+              <div class="item"><img src="./assets/images/hero-banner.png" alt="" class="opening-section-img"></div>
+           </div><div class="owl-item cloned" style="width: 1279px;">
+              <div class="item"><img src="./assets/images/hero-banner.png" alt="" class="opening-section-img"></div>
+           </div><div class="owl-item cloned animated owl-animated-in fadeIn active" style="width: 1279px;">
+              <div class="item"><img src="./assets/images/hero-banner.png" alt="" class="opening-section-img"></div>
+           </div></div>
+     </div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button></div></div></section>
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service" aria-label="service">
+        <div class="container">
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/emergency.jpeg" width="140" height="140" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="./assets/images/emergency-details.png" target="_blank">Emergency helpline</a>
+                </h3>
+
+                <p class="card-text">
+                    <b>9988388549</b>
+                </p>
+
+                <!-- <button class="btn-circle" aria-label="related pictures" onclick="openPageInNewTab()">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+                
+                <script>
+                  function openPageInNewTab() {
+                    var newTab = window.open('./assets/images/emergency-details.png', '_blank');
+                    newTab.focus(); 
+                  }
+                </script> -->
+
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/Govt card.png" width="200" height="200" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="https://bis.pmjay.gov.in/BIS/selfprintCard" target="_blank">Government medical cards accepted here</a>
+                </h3>
+
+                <p class="card-text">
+                    <b>Ayushman Bharat Health card</b>
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/awards.png" width="350" height="350" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="#">Awards and certificates</a>
+                </h3>
+
+                <p class="card-text">
+                    <b> Click here</b>
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-labelledby="about-label">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="section-subtitle title-lg has-after" id="about-label" data-reveal="left">About Us</p>
+
+            <h2 class="headline-md" data-reveal="left">Experienced Workers</h2>
+
+            <p class="section-text" data-reveal="left">
+                "Driven by Dedication, Guided by Expertise: Providing Compassionate Care and Transforming Lives, One Patient at a Time. Your Health, Our Priority. Experience Excellence in Healthcare with a Commitment to Healing, Trust, and Well-being. Together, Let's Write Your Healthier Story. Your Doctor, Your Partner, Your Health Advocate."
+            </p>
+
+            <p class="tab-text" data-reveal="left">
+                "Compassionate Care, Lifelong Wellness: Your Trusted Partner in Health."
+            </p>
+
+            <div class="wrapper">
+
+              <ul class="about-list">
+
+                <li class="about-item" data-reveal="left">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                  <span class="span">Advancing Medicine that Touches You</span>
+                </li>
+
+                <li class="about-item" data-reveal="left">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                  <span class="span">Supports Better Healthcare Facilities</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <figure class="about-banner" data-reveal="right">
+            <img src="./assets/images/about-banner.png" width="554" height="678" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #LISTING
+      -->
+
+      <section id = "listing-doctors" class="section listing" aria-labelledby="listing-label">
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <p class="section-subtitle title-lg" id="listing-label" data-reveal="left">Listing of Doctors</p>
+
+              <h2 class="headline-md" data-reveal="left">Browse by specialist</h2>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Medicine</h3>
+
+                  <a href = "doctors.html"><p class="card-text"><u>Dr Shubham Aggarwal</u></p></a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Gynaecologist</h3>
+
+                  <a href = "doctors.html"><p class="card-text"><u>Dr Nasir</u></p></a>
+                </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-4.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Radiology</h3>
+
+                  <a href = "doctors.html" target="_blank"><p class="card-text"><u>Dr X </u></p></a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-5.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Orthopedics</h3>
+
+                  <a href = "doctors.html"><p class="card-text"><u>Dr Ramjodh</u></p></a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-6.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Urologist</h3>
+
+                  <a href = "doctors.html"><p class="card-text"><u>Dr Vishal Garg</u></p></a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-7.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Medical Officer</h3>
+
+                  <a href = "doctors.html"><p class="card-text"><u>Dr Pallavi</u></p></a>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+    </div>
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section id="blogs" class="section blog" aria-labelledby="blog-label">
+        <div class="container">
+
+          <p class="section-subtitle title-lg text-center" id="blog-label" data-reveal="bottom">
+            Latest Articles
+          </p>
+
+          <h2 class="section-title headline-md text-center" data-reveal="bottom">Health Blogs</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <span class="span">By Dr Ramjodh</span>
+                  </div>
+
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+
+                    <span class="span">Orthopedics</span>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">Understanding the Basics of Heart Health: Tips for a Stronger Heart</h3>
+
+                <time class="title-sm date" datetime="2022-01-28">29 September, 2023</time>
+
+                <p class="card-text">
+                  Your heart, the lifeline of your body, deserves special care. To maintain good heart health, start by adopting a balanced diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats while limiting salt and sugar. Regular physical activity, such as brisk walking and cycling, strengthens your cardiovascular system.
+                </p>
+
+                <a href="blogs.html" class="btn-text title-lg">Read More</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <span class="span">By Dr Shubham Aggarwal</span>
+                  </div>
+
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+
+                    <span class="span">Medicine</span>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">Women's Health: Screening Tests and Health Maintenance for Every Age</h3>
+
+                <time class="title-sm date" datetime="2022-01-28">1 September, 2023</time>
+
+                <p class="card-text">
+                  Women's health needs evolve throughout their lives, making regular check-ups and age-appropriate screenings crucial for overall well-being. In your twenties, it's about building healthy habits and starting routine screenings.
+                </p>
+
+                <a href="blogs.html" class="btn-text title-lg">Read More</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <span class="span">By Dr Pallavi</span>
+                  </div>
+
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+
+                    <span class="span">Medical Officer</span>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">The Importance of Regular Check-ups: Preventative Care for a Healthier You</h3>
+
+                <time class="title-sm date" datetime="2022-01-28">20 August, 2023</time>
+
+                <p class="card-text">
+                  Regular check-ups with your healthcare provider are a cornerstone of maintaining good health and preventing potential medical issues. So, make that appointment today and invest in a healthier you.
+                </p>
+
+                <a href="blogs.html" class="btn-text title-lg">Read More</a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+  <footer id="contact" class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+    <div class="container">
+
+      <div class="section footer-top">
+        <p style="font-weight: bold; font-size: 20px;">Contact us</p>
+        <div class="footer-brand" data-reveal="bottom">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="150" height="80" loading="lazy" alt="logo">
+          </a>
+
+          <ul class="contact-list has-after">
+
+            <li class="contact-item">
+
+              <div class="item-icon">
+                <ion-icon name="mail-open-outline"></ion-icon>
+              </div>
+
+              <div >
+                <p>
+                  Email : <a href="mailto:newsaxenahospital@gmail.com" class="contact-link">newsaxenahospital@&shy;gmail.com</a>
+                </p>
+
+                <p>
+                  Inquiries : <a href="mailto:newsaxenahospital1@gmail.com" class="contact-link">newsaxenahospital1@gmail.com</a>
+                </p>
+              </div>
+
+            </li>
+
+            <li class="contact-item">
+
+              <div class="item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <div>
+                <p>
+                  Hospital : <a href="tel:0029129102320" class="contact-link">7888531079</a>
+                </p>
+
+                <p>
+                  Mobile : <a href="tel:000232439493" class="contact-link">9988388549</a>
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-list" data-reveal="bottom">
+
+        <p class="headline-sm footer-list-title">About Us</p>
+
+          <a href="about.html">
+              <button style="font-size: 15px; background-color: #088F8F; color: white; border: none; padding: 10px 20px; cursor: pointer;"
+              >Read Here</button>
+          </a>
+
+          <address class="address">
+            <a href="https://maps.app.goo.gl/yEXwhSBjPYzsTVC8A?g_st=ic" target="_blank">
+              <ion-icon name="map-outline"></ion-icon>
+            </a>
+            <span class="text">
+              Bhaloon Road, V.P.O.,<br>
+              Jassur, Nurpur (Kangra) Himachal Pradesh
+            </span>
+          </address>
+
+
+        </div>
+
+        <ul class="footer-list" data-reveal="bottom">
+            <li>
+            <p class="headline-sm footer-list-title">For patients</p>
+            </li>
+
+            <li>
+            <a href="services.html" class="text footer-link">Our services</a>
+            </li>
+
+            <li>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScE8FGE22oG5CZy3diV-7w5VtYmkdAH1ek9VKSBYD4xQFetRg/viewform?usp=sf_link" class="text footer-link" target = "_blank">Book an appointment</a>
+            </li>
+
+            <li>
+            <a href="doctors.html" class="text footer-link">Find a doctor</a>
+            </li>
+
+            <li>
+            <a href="patients-testimonials.html" target="_blank" class="text footer-link">Patient testimonials</a>
+            </li>
+        </ul>
+
+
+        <ul class="footer-list" data-reveal="bottom">
+
+          <li>
+            <p class="headline-sm footer-list-title">Useful Links</p>
+          </li>
+
+          <li>
+            <a href="TandC.html" class="text footer-link">Terms and Conditions</a>
+          </li>
+
+          <li>
+            <a href="TandC.html" class="text footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="https://forms.gle/5EjSfYiiQ9qyjFRVA" target="_blank" class="text footer-link">Join as a Doctor</a>
+          </li>
+
+          <li>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvy58vZTMXvN6M7cfFBWnoBdYwzrh2sy3pScG7iQ6HX_tBfg/viewform?usp=sf_link" class="text footer-link" target="_blank">Feedback</a>
+          </li>
+
+          <li>
+            <a href="https://maps.app.goo.gl/yEXwhSBjPYzsTVC8A?g_st=ic" target="_blank" class="text footer-link">Location</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <ul class="social-list">
+          <p>Follow us on</p>
+  
+            <li>
+              <a href="https://fb.watch/n6hKkduJaM/?mibextid=6aamW6" class="social-link" target="_blank">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+  
+            <li>
+              <a href="https://www.instagram.com/hospitaljassur/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+  
+            <li>
+              <a href="https://whatsapp.com/channel/0029Va8O72Q05MUYHRJWBd15" class="social-link">
+                <ion-icon name="logo-whatsApp"></ion-icon>
+              </a>
+            </li>
+  
+            <li>
+              <a href="https://www.linkedin.com/company/100687787/admin/feed/posts/" class="social-link" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+  
+          </ul>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
