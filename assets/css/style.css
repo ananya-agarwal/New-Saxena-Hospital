@@ -1135,7 +1135,7 @@ body.nav-active { overflow: hidden; }
 
   .contact-list::after {
     top: 0;
-    left: 50%;
+    left: 59%;
     width: 2px;
     height: 100%;
     background-color: var(--white_a20);
